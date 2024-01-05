@@ -69,7 +69,7 @@ export const LoginForm = () => {
   };
   return (
     <CardWrapper
-      headerLabel="Welcome Back!✋🏼 😊 🤚🏼"
+      headerLabel="Welcome Back! ✋🏼 😊 🤚🏼"
       backButtonLabel="Don't have an account?"
       backButtonHref="/auth/register"
       showSocial
@@ -109,7 +109,7 @@ export const LoginForm = () => {
                       <FormControl>
                         <Input
                           type="email"
-                          placeholder="elon.musk@tesla.com"
+                          placeholder="elon.musk@me.com"
                           {...field}
                           disabled={isPending}
                         />

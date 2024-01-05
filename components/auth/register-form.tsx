@@ -47,7 +47,7 @@ export const RegisterForm = () => {
   };
   return (
     <CardWrapper
-      headerLabel="Create an account!✋🏼 😊 🤚🏼"
+      headerLabel="Create Your Account 😊"
       backButtonLabel="Already have an account?"
       backButtonHref="/auth/login"
       showSocial
@@ -83,7 +83,7 @@ export const RegisterForm = () => {
                   <FormControl>
                     <Input
                       type="email"
-                      placeholder="elon.musk@tesla.com"
+                      placeholder="elon.musk@me.com"
                       {...field}
                       disabled={isPending}
                     />
